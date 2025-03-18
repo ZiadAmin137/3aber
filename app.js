@@ -25,7 +25,7 @@ const sendConfirmationEmail = async (email, verificationCode) => {
     const mailOptions = {
       from: process.env.EMAIL_USER,
       to: email,
-      subject: "Welcome to Abeer - Email Verification",
+      subject: "Welcome to Aber - Email Verification",
       text: `Hi there,
       
       Thank you for joining Abeer!! 🎉
